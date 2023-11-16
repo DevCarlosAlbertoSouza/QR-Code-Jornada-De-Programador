@@ -1,4 +1,4 @@
-//const URL_INSTAGRAM = /*"https://www.instagram.com/karlosalbertorv"
+const URL_INSTAGRAM = "https://www.instagram.com/karlosalbertorv"
 
 
 let compartilharButton = document.getElementById("compartilhar-perfil-button")
@@ -33,7 +33,7 @@ async function compartilharPerfilFn() {
 //  aqui contém animção no botão copiar 
 function copiarLink() {
 
-    navigator.clipboard.writeText("https://www.instagram.com/karlosalbertorv")
+    navigator.clipboard.writeText(URL_INSTAGRAM)
     // Mudar o texto do botão para " Link copiado!" e em negrito
     let copiarLinkText = document.getElementById("copiar-link-text")
     copiarLinkText.innerHTML = "<strong> Link copiado! </strong>"

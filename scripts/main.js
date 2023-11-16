@@ -13,7 +13,7 @@ async function compartilharPerfilFn() {
     {
         title: "Instagram Jornada de Programador",
         text: "Conheça a Jornada de Programador",
-        url:"https://www.instagram.com/karlosalbertorv",
+        url:URL_INSTAGRAM,
     }
 
     try {
